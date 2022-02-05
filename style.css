@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,body{
+	font-size: 62.5%;
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
+	background: url(images/bgimage.jpg) no-repeat center center fixed; 
+}
+
+.container{
+	height: 40rem;
+	width:  100rem;
+	background-color: hsl(212, 45%, 89%);
+	margin: 10rem auto;
+	padding: 5rem 40rem;
+	text-align: center;
+}
+
+.template{
+	height: 103%;
+	width: 100%;
+	background-color: hsl(0, 0%, 100%);
+	border: 2px solid hsl(212, 45%, 89%);
+	border-radius: 1.5rem;
+}
+
+
+.qr{
+	width: 90%;
+	margin: 1rem auto;
+	border-radius: .5rem;
+}
+
+
+.qr-p1{
+	font-size: 1.5rem;
+	font-weight: 700;
+	font-family: 'Zen Kurenaido', sans-serif;
+	margin-bottom: .5rem;
+}
+
+.qr-p2{
+	font-size: 1rem;
+	font-family: 'Zen Kurenaido', sans-serif;
+	font-weight: 400;
+
+}
+
+.qr-paras{
+	margin: auto;
+	text-align: center;
+	width: 80%;
+}
